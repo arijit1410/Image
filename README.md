@@ -18,7 +18,7 @@ Image size: 100x100 pixels.
 
 ## How to run ##
 
-Use the build_generate_data.py script to generate the train-00000-of-00001 and validation-00000-of-00001 tfrecords file which are needed for the train and test scripts. In the build_image_data.py file you can modify the path to the dataset as well as the location where the tfrecords are saved.
+Use the generate_data.py script to generate the train-00000-of-00001 and validation-00000-of-00001 tfrecords file which are needed for the train and test scripts. In the build_image_data.py file you can modify the path to the dataset as well as the location where the tfrecords are saved.
 
 Run the train.py to train the network - currently the network runs for 10 iterations and saves the network state every 8 steps. This will generate the models/ folder where the network parameters are saved.
 After completing the training, run the test.py file to evaluate the accuracy.
