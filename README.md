@@ -25,4 +25,5 @@ After completing the training, run the test.py file to evaluate the accuracy.
 
 The network.py file contains the network definition as well as parameters used for building the network like the weights, biases, learning rate etc.
 
-## Results ##
+## Result using ReLu ##
+``` Predicted 50 out of 50; partial accuracy 1.0000 ```
